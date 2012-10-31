@@ -1,0 +1,40 @@
+#reachOut {}
+/* The Container  */
+div.container {margin-left: auto; margin-right: auto; width: 640px;}
+/* Variable Width */
+
+/* **** No Variable Width **** */
+
+div#grid {padding-top:20px;background: none !important;}
+
+/* Grid Entries */
+div.item {box-shadow: 0px 4px 8px #111;}
+
+div.gridInfoHover {}
+div.item:hover div.gridInfoHover {display: block;}
+
+div.gridEntrySmall {width: 632px; height: auto; background-color: #f7f7f7;margin: 20px 0px;padding: 4px; border-radius: 0px 8px 12px 8px; clear: both;}
+div.gridEntrySmall div.gridImage {height: auto; width: 200px; margin: 10px; float: left;}
+div.gridEntrySmall div.gridImage img {height: auto; width: 200px;}
+div.gridEntrySmall div.gridInfoHover {height: auto;  width: auto;font-size: 14px; }
+
+div.gridEntryLarge {width: 632px; height: auto; background-color: #ccc !important;margin: 20px 0px 40px 0px;padding: 4px; border-radius: 0px 8px 12px 8px; clear: both; color: #666  !important;}
+div.gridEntryLarge div.gridImage {height: auto; width: 612px; margin: 10px; float: left;}
+div.gridEntryLarge div.gridImage img {height: auto; width: 612px;}
+div.gridEntryLarge div.gridInfoHover {height: auto;  width: auto;font-size: 14px; }
+
+div.gridEntryText {width: 632px; height: auto; background-color: #e4e4e4;margin: 20px 0px;padding: 4px; border-radius: 0px 8px 12px 8px; clear: both; font-weight: bold; }
+div.gridEntryText div.gridImage {display: none;}
+div.gridEntryText div.gridImage img {}
+div.gridEntryText div.gridInfoHover {height: auto; width: auto;font-size: 16px;}
+
+div.gridEntrySpan {width: 632px; height: auto; background-color: #bbb !important;margin: 20px 0px 40px 0px;padding: 4px; border-radius: 0px 8px 12px 8px; clear: both; color: #666  !important;}
+div.gridEntrySpan div.gridImage {height: auto; width: 612px; margin: 10px;}
+div.gridEntrySpan div.gridImage img {height: auto; width: 612px;}
+div.gridEntrySpan div.gridInfoHover {height: auto;  width: auto;font-size: 14px; }
+
+/* Social Logos */
+.twitter {background-image: url(css/twitterlogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.facebook {background-image: url(css/facebooklogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.myspace {background-image: url(css/myspacelogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.instagram {background-image: url(css/instagramlogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}

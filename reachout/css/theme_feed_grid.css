@@ -1,0 +1,26 @@
+/* The Container  */
+div.container {margin-left: auto; margin-right: auto; box-shadow: 0px 0px 6px #ccc;}
+/* Variable Width */
+
+div#grid {}
+
+/* Grid Entries */
+div.item {}
+
+div.gridInfoHover {}
+div.item:hover div.gridInfoHover {display: block;}
+
+div.gridEntry {height: auto; width: 640px; background-color: #fff;margin: 0px;padding: 18px 0 0 0; border-bottom: 1px solid #e3e3e3;}
+div.gridEntry div.gridImage {height: auto; width: 120px; float: left; margin: 0px 12px 6px 24px;}
+div.gridEntry div.gridImage img {height: auto; width: 120px;}
+div.gridEntry div.gridInfoHover {height: auto; font-size: 12px; color: #666; background: none; padding: 0 0 0 24px; }
+div.gridEntry p, div.gridEntry div.gridInfoHover p {padding: 0px; margin: 0px;}
+div.gridEntry:hover {background-color: #f7f7f7;}
+
+/* Social Logos */
+.twitter {background-image: url(css/twitterlogo.png) !important; background-position: left top !important; background-repeat: no-repeat !important;}
+.facebook {background-image: url(css/facebooklogo.png) !important; background-position: left top !important; background-repeat: no-repeat !important;}
+.myspace {background-image: url(css/myspacelogo.png) !important; background-position: left top !important; background-repeat: no-repeat !important;}
+.instagram {background-image: url(css/instagramlogo.png) !important; background-position:  left top !important; background-repeat: no-repeat !important;}
+
+

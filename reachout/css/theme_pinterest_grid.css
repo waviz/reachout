@@ -1,0 +1,43 @@
+/* The Container  */
+div.container {margin-left: auto; margin-right: auto; box-shadow: 0px 0px 6px #ccc;}
+/* Variable Width */
+@media only screen and (max-width: 1201px) {div.container {width: 1000px;}}
+@media only screen and (min-width: 1202px) and (max-width: 1401px) {div.container {width: 1200px;}}
+@media only screen and (min-width:1402px) and (max-width: 1601px) {div.container {width: 1400px;}}
+@media only screen and (min-width:1602px) and (max-width: 1801px) {div.container {width: 1600px;}}
+@media only screen and (min-width:1802px) {div.container {width: 1800px;}}
+
+div#grid {padding-top:40px;}
+
+/* Grid Entries */
+div.item {}
+
+div.gridInfoHover {}
+div.item:hover div.gridInfoHover {display: block;}
+
+div.gridEntrySmall {width: 180px; height: auto; background-color: #fff;margin: 12px 10px;padding-bottom: 18px; border-bottom: 1px solid #e3e3e3;}
+div.gridEntrySmall div.gridImage {height: auto; width: 180px;}
+div.gridEntrySmall div.gridImage img {height: auto; width: 180px;}
+div.gridEntrySmall div.gridInfoHover {height: auto; width: 180px;font-size: 11px; color: #111; background-color: #fff; }
+
+div.gridEntryLarge {width: 180px; height: auto; background-color: #333;margin: 12px 10px;padding-bottom: 18px;border-bottom: 1px solid #e3e3e3;color: #fff;}
+div.gridEntryLarge div.gridImage {height: auto; width: 170px;}
+div.gridEntryLarge div.gridImage img {height: auto; width: 170px;margin: 5px;}
+div.gridEntryLarge div.gridInfoHover {height: auto; width: 180px; font-size: 11px; background:none;}
+
+div.gridEntryText {width: 180px; height: auto; background-color: #fff;margin: 12px 10px;padding-bottom: 18px;border-bottom: 1px solid #e3e3e3;}
+div.gridEntryText div.gridImage {height: auto; width: 180px; display: none}
+div.gridEntryText div.gridImage img {height: auto; width: 180px;overflow: hidden;}
+div.gridEntryText div.gridInfoHover {height: auto; width: 180px;  font-size: 16px;/* color: #111; background-color: #fff; */ padding-bottom: 18px;}
+
+
+div.gridEntrySpan {width: 180px; height: auto; background-color: #fff;margin: 12px 10px;padding-bottom: 18px;border-bottom: 1px solid #e3e3e3;}
+div.gridEntrySpan div.gridImage {height: auto; width: 180px;}
+div.gridEntrySpan div.gridImage img {height: auto; width: 180px;}
+div.gridEntrySpan div.gridInfoHover {height: auto; width: 180px; font-size: 11px;color: #111; background-color: #fff;}
+
+/* Social Logos */
+.twitter {background-image: url(css/twitterlogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.facebook {background-image: url(css/facebooklogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.myspace {background-image: url(css/myspacelogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.instagram {background-image: url(css/instagramlogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}

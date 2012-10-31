@@ -1,0 +1,43 @@
+/* The Container  */
+div.container {margin-left: auto; margin-right: auto; box-shadow: 0px 0px 6px #ccc;}
+/* Variable Width */
+@media only screen /* and (max-width: 1201px) */ {div.container {width: 1000px;}}
+/*
+@media only screen and (min-width: 1202px) and (max-width: 1401px) {div.container {width: 1200px;}}
+@media only screen and (min-width:1402px) and (max-width: 1601px) {div.container {width: 1400px;}}
+@media only screen and (min-width:1602px) and (max-width: 1801px) {div.container {width: 1600px;}}
+@media only screen and (min-width:1802px) {div.container {width: 1800px;}}
+*/
+
+/* Grid Entries */
+div.item {float: left; position: relative;}
+
+div.gridInfoHover {display: none;border-bottom: 4px solid #9d0b0b;}
+div.item:hover div.gridInfoHover {display: block;}
+
+div.gridEntrySmall {width: 200px; height: 200px; overflow: hidden;background:none;}
+div.gridEntrySmall div.gridImage {height: 200px; width: 200px;}
+div.gridEntrySmall div.gridImage img {height: 200px; width: auto;}
+div.gridEntrySmall div.gridInfoHover {height: 76px; width: 200px; /* background-image: url(css/transparentblack.png); */position: absolute; top: 120px; left: 0px; z-index: 90; font-size: 10px; color: #fff; background-color: #111; opacity: 0.8;}
+
+div.gridEntryLarge {width: 400px; height: 400px; overflow: hidden;background-color: #e3e3e3;}
+div.gridEntryLarge div.gridImage {height: 400px; width: 400px;}
+div.gridEntryLarge div.gridImage img {height: 400px; width: auto;}
+div.gridEntryLarge div.gridInfoHover {height: 76px; width: 400px; /* background-image: url(css/transparentblack.png); */position: absolute; top: 320px; left: 0px; z-index: 90; font-size: 14px; color: #fff; background-color: #111;opacity: 0.8;}
+
+div.gridEntryText {width: 200px; height: 200px; overflow: hidden;}
+div.gridEntryText div.gridImage {display:none;}
+div.gridEntryText div.gridImage img {height: 200px; width: auto;}
+div.gridEntryText div.gridInfoHover {height: 200px; width: 200px;display: block; border: none;}
+
+
+div.gridEntrySpan {width: 200px; height: 200px; overflow: hidden;background-color: #e3e3e3;}
+div.gridEntrySpan div.gridImage {height: 200px; width: 200px;}
+div.gridEntrySpan div.gridImage img {height: 200px; width: auto;}
+div.gridEntrySpan div.gridInfoHover {height: 76px; width: 200px; /* background-image: url(css/transparentblack.png); */position: absolute; top: 120px; left: 0px; z-index: 90; font-size: 11px; color: #fff; background-color: #111;opacity: 0.8; }
+
+/* Social Logos */
+.twitter {background-image: url(css/twitterlogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.facebook {background-image: url(css/facebooklogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.myspace {background-image: url(css/myspacelogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
+.instagram {background-image: url(css/instagramlogo.png) !important; background-position: right bottom !important; background-repeat: no-repeat !important;}
